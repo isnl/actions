@@ -6,4 +6,6 @@ export default defineConfig({
   },
   fastRefresh: {},
   publicPath: '/actions/',
+  hash: true,
+  history: { type: 'hash' },
 });
