@@ -6,5 +6,5 @@ export default defineConfig({
   },
   routes: [{ path: '/', component: '@/pages/index' }],
   fastRefresh: {},
-  publicPath: '/actions/',
+  publicPath: process.env.NODE_ENV === 'production' ? '/actions' : '/',
 });
