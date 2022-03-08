@@ -5,5 +5,5 @@ export default defineConfig({
     type: 'none',
   },
   fastRefresh: {},
-  publicPath: '/',
+  publicPath: '/actions/',
 });
